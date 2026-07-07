@@ -33,6 +33,9 @@ on:
       - 'tests/**'
       - 'pyproject.toml'
       - 'uv.lock'
+      - 'Dockerfile'
+      - 'docker-compose.yml'
+      - '.dockerignore'
       - '.github/workflows/**'
       - '!**/*.md'          # ! = 제외. 마크다운 문서 변경은 무시
   # main 을 대상으로 PR이 열리거나 업데이트될 때 실행
@@ -43,6 +46,9 @@ on:
       - 'tests/**'
       - 'pyproject.toml'
       - 'uv.lock'
+      - 'Dockerfile'
+      - 'docker-compose.yml'
+      - '.dockerignore'
       - '.github/workflows/**'
       - '!**/*.md'
   # Actions 탭에서 "Run workflow" 버튼으로 수동 실행도 가능하게 함
